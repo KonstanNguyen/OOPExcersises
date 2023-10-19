@@ -47,7 +47,7 @@ class MovablePoint implements Movable {
   }
 }
 
-public class N21DCCN156 {
+public class Test6_3 {
   public static void main(String[] args) {
     MovablePoint point = new MovablePoint(3, 5, 2, 3);
 

@@ -79,7 +79,7 @@ class MovableCircle implements Movable {
   }
 }
 
-public class Test6_8 {
+public class Test6_8_Circle {
   public static void main(String[] args) {
     MovablePoint point = new MovablePoint(3, 5, 2, 3);
     MovableCircle circle = new MovableCircle(1, 2, 4, 5, 6);

@@ -133,10 +133,9 @@ class MyDate{
 
   public MyDate previousDay(){
     --day;
-    if(!isValidDate(year, month, day)){
+    if(day < 1)
       previousMonth();
-      day = daysInMonths[month-1];
-    }
+    
     return this;
   }
 
